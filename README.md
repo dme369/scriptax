@@ -31,3 +31,13 @@ You can limit the version of catboost version >0.25.1 to ensure that the pipelin
 ### Device Info
 OS Platform and Distribution:        windows 10<br />
 Python Version:                      3.7.10
+## Crash
+### TypeError: __init__() got an unexpected keyword argument 'min_data_in_leaf'
+### Bug Description
+I create a new conda environment and install catboost. But it throw some error when i run this pipeline.
+  Error Packages:
+    catboost : 0.12.2,0.10.3
+  Error Apis:
+    catboost.CatBoostRegressor
+  Error Description: 
+     TypeError: __init__() got an unexpected keyword argument 'min_data_in_leaf'
